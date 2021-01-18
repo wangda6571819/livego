@@ -4,6 +4,7 @@ import (
 	"encoding/binary"
 	"github.com/gwuhaolin/livego/utils/pio"
 	"github.com/gwuhaolin/livego/utils/pool"
+	pool2 "github.com/zhangjunfang/livego/utils/pool"
 	"net"
 	"time"
 )
@@ -60,7 +61,7 @@ func (conn *Conn) Read(c *ChunkStream) error {
 		}
 		cs.tmpFromat = format
 		cs.CSID = csid
-		err := cs.readChunk(conn.rw, conn.remoteChunkSize, conn.pool)
+		err := cs.readChunk(conn.rw, conn.remoteChunkSize, (*pool2.Pool)(conn.pool))
 		if err != nil {
 			return err
 		}

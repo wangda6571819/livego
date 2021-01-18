@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/zhangjunfang/livego/av"
+	"github.com/wangda6571819/livego/av"
 )
 
 type TestWriter struct {
