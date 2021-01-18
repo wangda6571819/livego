@@ -11,8 +11,8 @@ import (
 	neturl "net/url"
 	"strings"
 
-	"github.com/zhangjunfang/livego/av"
-	"github.com/zhangjunfang/livego/protocol/amf"
+	"github.com/wangda6571819/livego/av"
+	"github.com/wangda6571819/livego/protocol/amf"
 )
 
 var (

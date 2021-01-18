@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/zhangjunfang/livego/av"
-	"github.com/zhangjunfang/livego/protocol/rtmp"
+	"github.com/wangda6571819/livego/av"
+	"github.com/wangda6571819/livego/protocol/rtmp"
 )
 
 type Server struct {

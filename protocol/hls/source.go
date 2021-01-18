@@ -7,10 +7,10 @@ import (
 	"log"
 	"time"
 
-	"github.com/zhangjunfang/livego/av"
-	"github.com/zhangjunfang/livego/container/flv"
-	"github.com/zhangjunfang/livego/container/ts"
-	"github.com/zhangjunfang/livego/parser"
+	"github.com/wangda6571819/livego/av"
+	"github.com/wangda6571819/livego/container/flv"
+	"github.com/wangda6571819/livego/container/ts"
+	"github.com/wangda6571819/livego/parser"
 )
 
 const (

@@ -4,10 +4,10 @@ import (
 	"errors"
 	"io"
 
-	"github.com/zhangjunfang/livego/av"
-	"github.com/zhangjunfang/livego/parser/aac"
-	"github.com/zhangjunfang/livego/parser/h264"
-	"github.com/zhangjunfang/livego/parser/mp3"
+	"github.com/wangda6571819/livego/av"
+	"github.com/wangda6571819/livego/parser/aac"
+	"github.com/wangda6571819/livego/parser/h264"
+	"github.com/wangda6571819/livego/parser/mp3"
 )
 
 var (

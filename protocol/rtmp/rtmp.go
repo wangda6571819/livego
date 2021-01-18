@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhangjunfang/livego/av"
-	"github.com/zhangjunfang/livego/configure"
-	"github.com/zhangjunfang/livego/container/flv"
-	"github.com/zhangjunfang/livego/protocol/rtmp/core"
-	"github.com/zhangjunfang/livego/utils/uid"
+	"github.com/wangda6571819/livego/av"
+	"github.com/wangda6571819/livego/configure"
+	"github.com/wangda6571819/livego/container/flv"
+	"github.com/wangda6571819/livego/protocol/rtmp/core"
+	"github.com/wangda6571819/livego/utils/uid"
 )
 
 const (

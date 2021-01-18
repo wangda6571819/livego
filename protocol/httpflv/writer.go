@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/zhangjunfang/livego/av"
-	"github.com/zhangjunfang/livego/protocol/amf"
-	"github.com/zhangjunfang/livego/utils/pio"
-	"github.com/zhangjunfang/livego/utils/uid"
+	"github.com/wangda6571819/livego/av"
+	"github.com/wangda6571819/livego/protocol/amf"
+	"github.com/wangda6571819/livego/utils/pio"
+	"github.com/wangda6571819/livego/utils/uid"
 )
 
 const (

@@ -8,9 +8,9 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/zhangjunfang/livego/av"
-	"github.com/zhangjunfang/livego/protocol/rtmp"
-	"github.com/zhangjunfang/livego/protocol/rtmp/rtmprelay"
+	"github.com/wangda6571819/livego/av"
+	"github.com/wangda6571819/livego/protocol/rtmp"
+	"github.com/wangda6571819/livego/protocol/rtmp/rtmprelay"
 )
 
 type Response struct {
