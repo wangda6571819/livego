@@ -108,7 +108,7 @@ func TestAmf0Array(t *testing.T) {
 
 	res, err := EncodeAndDecode(arr, 0)
 	if err != nil {
-		t.Error("amf0 object: %s", err)
+		t.Errorf("amf0 object: %s", err)
 	}
 
 	result, ok := res.(Array)
@@ -170,7 +170,7 @@ func TestAmf3Array(t *testing.T) {
 
 	res, err := EncodeAndDecode(arr, 3)
 	if err != nil {
-		t.Error("amf3 object: %s", err)
+		t.Errorf("amf3 object: %s", err)
 	}
 
 	result, ok := res.(Array)

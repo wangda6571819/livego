@@ -3,9 +3,9 @@ package rtmprelay
 import (
 	"errors"
 	"fmt"
-	"github.com/gwuhaolin/livego/av"
-	"github.com/gwuhaolin/livego/configure"
-	"github.com/gwuhaolin/livego/protocol/rtmp/core"
+	"github.com/wangda6571819/livego/av"
+	"github.com/wangda6571819/livego/configure"
+	"github.com/wangda6571819/livego/protocol/rtmp/core"
 	"log"
 	"sync"
 )
