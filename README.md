@@ -35,24 +35,27 @@ https://github.com/zhangjunfang/livego
 
 控制台上打印出:
 2021/01/18 16:19:01 livego.go:118: start livego, version master
-2021/01/18 16:19:01 liveconfig.go:35: starting load configure file(livego.cfg)......
-2021/01/18 16:19:01 liveconfig.go:42: loadconfig: 
-{
-    "server": [
-	{
-	"appname":"live",
-	"liveon":"on",
-	"hlson":"on"
-	}
-	]
-}
 
-2021/01/18 16:19:01 liveconfig.go:49: get config json data:{[{live on on []}]}
-2021/01/18 16:19:01 livego.go:87: HTTP-FLV listen On :7001
-2021/01/18 16:19:01 livego.go:105: HTTP-Operation listen On :8090
-2021/01/18 16:19:01 livego.go:43: HLS listen On :7002
-2021/01/18 16:19:01 livego.go:62: hls server enable....
-2021/01/18 16:19:01 livego.go:70: RTMP Listen On :1935
+2021/01/18 16:19:01 liveconfig.go:35: starting load configure file(livego.cfg)......
+
+2021/01/18 16:19:01 liveconfig.go:42: loadconfig: 
+
+{ 
+    "server": [ 
+	{ 
+	"appname":"live", 
+	"liveon":"on", 
+	"hlson":"on" 
+	} 
+	] 
+} 
+
+2021/01/18 16:19:01 liveconfig.go:49: get config json data:{[{live on on []}]} 
+2021/01/18 16:19:01 livego.go:87: HTTP-FLV listen On :7001 
+2021/01/18 16:19:01 livego.go:105: HTTP-Operation listen On :8090 
+2021/01/18 16:19:01 livego.go:43: HLS listen On :7002 
+2021/01/18 16:19:01 livego.go:62: hls server enable.... 
+2021/01/18 16:19:01 livego.go:70: RTMP Listen On :1935 
 
 表示服务开启
 
